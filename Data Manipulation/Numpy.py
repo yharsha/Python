@@ -53,3 +53,33 @@ print("array","-->",x)
 print(x[:5],":::",x[4:],":::",x[4:7],":::",x[: :2],":::",x[1::2],":::",x[::-1])
 
 #Array Concatenation
+#You can concatenate two or more arrays at once.
+x = np.array([1, 2, 3])
+y = np.array([3, 2, 1])
+z = [21,21,21]
+print(np.concatenate([x,y,z]))
+
+#You can also use this function to create 2-dimensional arrays.
+grid=np.array([x,y])
+print(np.concatenate([grid,grid]))
+#Using its axis parameter, you can define row-wise or column-wise matrix
+print(np.concatenate([grid,grid],axis=1))
+# if you are required to combine a 2D array with 1D array
+grid = np.array([[1,2,3],[17,18,19]])
+a=np.array([[9],[9]])
+print(np.vstack([z,grid]))
+print(np.hstack([a,grid]))
+
+#we can split the arrays based on pre-defined positions
+x = np.arange(10)
+print(x)
+x1,x2,x3 = np.split(x,[3,6])
+print (x1,x2,x3)
+
+grid = np.arange(16).reshape((4,4))
+
+upper,lower = np.vsplit(grid,[2])
+print (upper,"****", lower)
+
+
+
