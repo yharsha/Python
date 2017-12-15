@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1513359703226.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2389547644",
+    "id" : "CF4E7E6",
+    "lastKnownWriteTime" : 1513187480,
+    "last_content_update" : 1513187480,
+    "path" : "C:/Users/I321790/R_projects/MachineLearning/airfoil_self_noise.csv",
+    "project_path" : "airfoil_self_noise.csv",
+    "properties" : {
+        "cursorPosition" : "0,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}
